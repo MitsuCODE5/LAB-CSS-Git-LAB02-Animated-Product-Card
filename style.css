@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap');
+
+*{
+   font-family: 'Poppins', sans-serif; 
+   margin: 0;
+   border: 0;
+   box-sizing: border-box;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(90deg, rgb(50, 50, 255), purple);
+}
+
+.box{
+    width: 500px;
+    height: 800px;
+    border-radius: 25px;
+    margin: 100px;
+    background-color: white;
+    position: relative;
+
+}
+
+.product-icon{
+    font-size: 40px;
+    justify-content: space-between;
+    position: absolute;
+    display: flex;
+    top: 40px;
+    left: 30px;
+    right: 30px;
+
+}
+
+.product-icon a{
+    color: black;
+
+}
+.product-img{
+    align-items: center;
+}
+.product-img img{
+    width: 300px;
+    height: 300px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+.product-name{
+    font-size: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+
+}
+
+.product-name h1{
+    text-align: left;
+    word-wrap: break-word;
+    text-transform: uppercase;
+
+}
+
+.product-detail{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+
+}
+
+.product-detail p{
+    text-align: left;
+    word-wrap: break-word;
+
+}
+
+.product-star{
+    text-align: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.product-star i{
+    margin-right: 1px;
+
+}
+
+.product-price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+    margin-top: -17px;
+    float: right;
+}
+
+.product-price .price-number{
+    color: rgb(105, 103, 103);
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.product-colour {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+.product-colour p {
+    margin-right: 2px;
+}
+
+ul {
+    list-style: none;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 7px;
+}
+
+ul li{
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    border-radius: 50%;
+    transition: transform 0.2s;
+    cursor: pointer;
+
+}
+
+ul li:hover{
+    transform: scale(1.1);
+}
+
+#blue{
+    background-color: blue;
+}
+
+#pink{
+    background-color: pink;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+.product-btn{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    background-image: linear-gradient(90deg, rgb(50, 50, 255), purple);
+    border-radius: 35px;
+    padding: 10px;
+    margin:  30px;
+    margin-top: 70px;
+    text-transform: capitalize;
+
+}
+
+.product-btn a{
+    text-decoration: none;
+    color: white;
+    
+
+}
